@@ -1,0 +1,237 @@
+%PDF-1.4
+%CyberShield
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 2369 >>
+stream
+0.04 0.08 0.13 rg
+0 0 612 792 re f
+0.25 0.86 0.81 rg
+40 745 532 2 re f
+BT /F2 38 Tf 0.92 0.96 0.99 rg 44 707 Td (CYBERSHIELD) Tj ET
+BT /F2 17 Tf 0.26 0.84 0.8 rg 44 655 Td (Cybersecurity Awareness & Threat Detection System) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 623 Td (Academic Micro-Project Report) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 593 Td (A responsive educational web application for URL awareness, password hygiene,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 576 Td (and practical cybersecurity learning.) Tj ET
+BT /F1 10 Tf 0.52 0.67 0.78 rg 44 546 Td (Technology: Python 3 - Flask - SQLite - HTML - CSS - JavaScript) Tj ET
+BT /F1 10 Tf 0.52 0.67 0.78 rg 44 528 Td (Report edition: 1.0  |  Date: 01 November 2026) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 497 Td (Project at a glance) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 470 Td (CyberShield combines an interactive dashboard, a local rule-based URL syntax) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 453 Td (analyzer, a browser-only password assessment, and concise awareness content.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 436 Td (The goal is to help learners recognize common warning signs while clearly) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 419 Td (communicating the limits of lightweight educational checks.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 389 Td (Abstract) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 362 Td (The project demonstrates a small full-stack application built with Flask and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 345 Td (SQLite. URL input is parsed as text and classified using transparent rules for) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 328 Td (transport scheme, IP literals, suspicious wording, hostname shape, and ports.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 311 Td (No submitted URL is fetched or resolved. Password composition is inspected in) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 294 Td (the browser, and the password string is never sent to the server. Anonymous) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 277 Td (activity records retain event category, result category, and timestamp only.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 260 Td (The project is designed for classroom demonstration, not operational defense.) Tj ET
+BT /F1 8 Tf 0.55 0.64 0.73 rg 40 28 Td (CYBERSHIELD  /  ACADEMIC PROJECT REPORT) Tj ET
+BT /F1 8 Tf 0.40 0.52 0.63 rg 530 28 Td (1 / 5) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3287 >>
+stream
+0.04 0.08 0.13 rg
+0 0 612 792 re f
+0.25 0.86 0.81 rg
+40 745 532 2 re f
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 707 Td (1. Introduction) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 680 Td (People routinely encounter deceptive links, credential theft attempts, and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 663 Td (unsafe password habits. Cybersecurity awareness improves when learners can) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 646 Td (interact with simple examples and receive immediate, understandable feedback.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 629 Td (CyberShield presents that learning in a responsive dashboard.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 612 Td (1.1 Problem statement) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 585 Td (Beginners often struggle to distinguish suspicious URL patterns and to evaluate) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 568 Td (password composition. A small, safe demonstration can explain observable) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 551 Td (signals without opening a potentially harmful destination.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 534 Td (1.2 Objectives) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 507 Td (- Provide an at-a-glance dashboard of usage totals.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 490 Td (- Explain why URL syntax may warrant caution.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 473 Td (- Assess sample password composition locally in the browser.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 456 Td (- Present practical advice on phishing and safer browsing.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 439 Td (- Store only minimal, non-secret activity aggregates in SQLite.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 422 Td (1.3 Scope and limitations) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 395 Td (This is a teaching aid. It has no threat-intelligence feed, malware detection,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 378 Td (reputation lookup, DNS inspection, or site-content inspection. URL rules can) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 361 Td (produce false positives and false negatives. -Safe- means only that the rules) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 344 Td (did not find a listed pattern. HTTPS encrypts a connection but does not prove) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 327 Td (that a destination is legitimate. Password score is a composition checklist,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 310 Td (not a complete estimate of resistance to guessing or reuse.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 293 Td (2. Requirements) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 266 Td (Functional: dashboard totals and recent events; URL input validation and a) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 249 Td (three-level classification with explanations; password checklist and tips;) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 232 Td (awareness cards; JSON endpoints; persistent local activity history.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 215 Td (Non-functional: responsive layout, beginner-friendly setup, minimal dependencies,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 198 Td (no URL visitation, no password storage/transmission, and clear limitations.) Tj ET
+BT /F1 8 Tf 0.55 0.64 0.73 rg 40 28 Td (CYBERSHIELD  /  ACADEMIC PROJECT REPORT) Tj ET
+BT /F1 8 Tf 0.40 0.52 0.63 rg 530 28 Td (2 / 5) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2875 >>
+stream
+0.04 0.08 0.13 rg
+0 0 612 792 re f
+0.25 0.86 0.81 rg
+40 745 532 2 re f
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 707 Td (3. System design) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 680 Td (3.1 Architecture) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 663 Td (The browser renders a Flask-served HTML page and static CSS/JavaScript. URL) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 646 Td (analysis is sent to Flask for local parsing and rule evaluation. Aggregate event) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 629 Td (metadata is written to SQLite. Password scoring stays in JavaScript; a separate) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 612 Td (empty POST increments an assessment count. The endpoint ignores request content.) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 582 Td (Browser  -  Flask URL parser  -  SQLite event metadata) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 565 Td (Browser JavaScript  -  empty count request  -  SQLite) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 535 Td (3.2 URL analysis method) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 508 Td (The analyzer accepts HTTP or HTTPS URLs, adding HTTPS when no scheme is given.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 491 Td (It validates host presence, rejects whitespace and embedded credentials, and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 474 Td (does not perform network I/O. Rule points are assigned for plain HTTP, direct) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 457 Td (IP address, uncommon suffix, long host, many hyphens, suspicious vocabulary,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 440 Td (nonstandard port, and deeply nested subdomains. Score 0-1 is Safe, 2-5 is) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 423 Td (Suspicious, and 6+ is High Risk. The displayed score is capped at 10.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 393 Td (3.3 Password assessment and privacy) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 366 Td (Five visible checks cover length of at least 12, uppercase, lowercase, digit, and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 349 Td (special character; extra length can improve the score. Suggestions identify) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 332 Td (missing criteria. No password is placed in a request. The activity endpoint) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 315 Td (intentionally ignores its request body and writes only a generic count row.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 285 Td (3.4 Data model) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 258 Td (activity\(id, kind, classification, created_at\)) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 241 Td (The schema constraint allows only url_scan or password_check event kinds. URL) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 224 Td (text and password content are absent from the table by design.) Tj ET
+BT /F1 8 Tf 0.55 0.64 0.73 rg 40 28 Td (CYBERSHIELD  /  ACADEMIC PROJECT REPORT) Tj ET
+BT /F1 8 Tf 0.40 0.52 0.63 rg 530 28 Td (3 / 5) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3286 >>
+stream
+0.04 0.08 0.13 rg
+0 0 612 792 re f
+0.25 0.86 0.81 rg
+40 745 532 2 re f
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 707 Td (4. Implementation) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 680 Td (The application entry point is app.py. Flask serves the dashboard, health check,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 663 Td (dashboard data, URL analysis, and password assessment count. Database setup is) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 646 Td (automatic. CYBERSHIELD_DB can select a custom SQLite path.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 629 Td (The interface is composed of templates/index.html, static/style.css, and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 612 Td (static/app.js. Semantic labels, focus styling, responsive breakpoints, and an) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 595 Td (aria-live result area support usability across screen sizes.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 578 Td (4.1 API summary) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 551 Td (GET  /                      Dashboard page) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 534 Td (GET  /health               Liveness response) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 517 Td (GET  /api/dashboard        Counts and recent activity) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 500 Td (POST /api/analyze-url      Analyze JSON/form field named url) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 483 Td (POST /api/password-assessment  Increment count; body ignored) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 466 Td (4.2 Input handling) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 439 Td (The server enforces a 2,048-character URL maximum, rejects whitespace and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 422 Td (control characters, schemes other than HTTP\(S\), incomplete hostnames, malformed) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 405 Td (ports, and URLs containing credentials. JSON errors use HTTP 400. Flask also) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 388 Td (has a request-body size limit. Results are inserted into the page using DOM text) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 371 Td (nodes, rather than interpreted HTML.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 354 Td (5. Testing and verification plan) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 327 Td (The unittest suite covers the landing page, health endpoint, safe and suspicious) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 310 Td (classification, validation errors, aggregate dashboard counts, and confirming) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 293 Td (that URL/password input strings are absent from persisted event records.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 276 Td (Run with: python -m unittest discover -s tests -v) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 259 Td (Run locally: python -m venv .venv; activate it; pip install -r requirements.txt;) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 242 Td (then python app.py and visit http://127.0.0.1:5000.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 212 Td (Environment note: this report was authored in an environment without a Python) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 195 Td (runtime, so application tests and live endpoint checks could not be executed here.) Tj ET
+BT /F1 8 Tf 0.55 0.64 0.73 rg 40 28 Td (CYBERSHIELD  /  ACADEMIC PROJECT REPORT) Tj ET
+BT /F1 8 Tf 0.40 0.52 0.63 rg 530 28 Td (4 / 5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3150 >>
+stream
+0.04 0.08 0.13 rg
+0 0 612 792 re f
+0.25 0.86 0.81 rg
+40 745 532 2 re f
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 707 Td (6. Deployment and operation) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 680 Td (For local demonstration, use a supported Python 3 version, install Flask from) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 663 Td (requirements.txt, and launch app.py. The server defaults to loopback-friendly) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 646 Td (Flask development settings. The generated SQLite file lives in instance/ and) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 629 Td (is excluded from version control. Tests create isolated temporary databases.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 599 Td (6.1 Production considerations) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 572 Td (Before any public deployment, use a production WSGI server, HTTPS, rate limits,) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 555 Td (security headers, operational monitoring, backup/retention decisions, and a) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 538 Td (reviewed privacy notice. The educational URL score must not be presented as a) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 521 Td (professional security verdict.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 504 Td (7. Conclusion) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 477 Td (CyberShield joins foundational awareness content with hands-on URL and password) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 460 Td (exercises. The implementation emphasizes transparent rule explanations, local) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 443 Td (analysis, minimal history, and explicit privacy boundaries. It is a useful) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 426 Td (starting point for a college micro-project and can be extended with additional) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 409 Td (lessons or accessibility refinements without changing its safe-by-default) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 392 Td (educational scope.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 375 Td (Appendix A. Suggested demonstration) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 348 Td (1. Open the dashboard and note the empty or accumulated counts.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 331 Td (2. Analyze https://example.com and review the basic rule result.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 314 Td (3. Analyze http://192.168.1.3/urgent-login to see multiple warning signals.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 297 Td (4. Enter a sample password and inspect the checklist; use a fake sample only.) Tj ET
+BT /F1 11 Tf 0.76 0.82 0.89 rg 44 280 Td (5. Confirm that only count metadata is retained in the activity database.) Tj ET
+BT /F2 16 Tf 0.92 0.96 0.99 rg 44 263 Td (Appendix B. Repository contents) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 236 Td (app.py, templates/index.html, static/app.js, static/style.css) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 219 Td (tests/test_app.py, requirements.txt, README.md, LICENSE, .gitignore) Tj ET
+BT /F3 9 Tf 0.76 0.82 0.89 rg 44 202 Td (report/CyberShield_Project_Report.pdf) Tj ET
+BT /F1 8 Tf 0.55 0.64 0.73 rg 40 28 Td (END OF REPORT) Tj ET
+BT /F1 8 Tf 0.40 0.52 0.63 rg 530 28 Td (5 / 5) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000022 00000 n 
+0000000071 00000 n 
+0000000155 00000 n 
+0000000225 00000 n 
+0000000300 00000 n 
+0000000368 00000 n 
+0000002789 00000 n 
+0000002935 00000 n 
+0000006274 00000 n 
+0000006420 00000 n 
+0000009348 00000 n 
+0000009496 00000 n 
+0000012835 00000 n 
+0000012983 00000 n 
+0000016186 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+16334
+%%EOF
